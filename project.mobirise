@@ -6,10 +6,10 @@
       "name": "mobirise3",
       "title": "Mobirise 3",
       "styling": {
-        "primaryColor": "#c0a375",
+        "primaryColor": "#faaf40",
         "secondaryColor": "#bfcecb",
-        "successColor": "#90a878",
-        "infoColor": "#7e9b9f",
+        "successColor": "#c1c1c1",
+        "infoColor": "#00a885",
         "warningColor": "#f3c649",
         "dangerColor": "#f28281",
         "titleFont": "Lato",
@@ -21,12 +21,14 @@
       }
     },
     "versionFirst": "3.11.1",
-    "uniqCompNum": 22,
+    "uniqCompNum": 28,
     "versionPublish": "3.11.1",
     "favicon": "",
     "noImageResize": "",
     "google-analytics": "",
-    "cookiesAlert": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>."
+    "cookiesAlert": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -80,6 +82,53 @@
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span>YOUTUBE</a> "
         },
         {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_styles": {
+            "STRONG": {
+              "color": "#efefef"
+            }
+          },
+          "_anchor": "contacts1-r",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#0065bd",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/logo_muvs_zkratka-128x128.png",
+              "width": 128,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "linkInNewWindow": false,
+              "name": "home",
+              "family": "MobiriseIcons",
+              "link": "",
+              "size": 0,
+              "color": "#ffffff",
+              "active": true
+            }
+          },
+          "text1": "<strong>Address</strong><br>Masaryk Institute of Advanced Studies<br>Kolejní 2a<br>160 00 &nbsp;Praha 6",
+          "text2": "<strong>Contacts</strong><br>\nEmail: <a href=\"mailto:pavel.andres@cvut.cz\">pavel.andres@cvut.cz</a><br>\nPhone:&nbsp;+420-22435-3170<br>\nFax: ---",
+          "text3": "<p><strong>Links</strong><br>\n<a href=\"http://www.muvs.cvut.cz/\">Web MUVS</a><a class=\"text-primary\" href=\"https://mobirise.com/\"></a><br>\n<a href=\"https://intranet.muvs.cvut.cz/\">Intranet MUVS</a><a class=\"text-primary\" href=\"https://mobirise.com/mobirise-free-win.zip\"></a><br>\n<a class=\"text-primary\" href=\"https://mobirise.com/mobirise-free-mac.zip\">Download for Mac</a></p>"
+        },
+        {
           "_inherit": "menu",
           "_tags": [
             "Theme"
@@ -112,13 +161,13 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#004a8a"
+              "background": "#000000"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#005dae!important"
+              "background": "#000000!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#0065bd"
+              "background": "#000000"
             },
             ".bg-color.transparent .link": {
               "color": "#ffffff",
@@ -131,13 +180,13 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#c0a375!important"
+              "color": "#faaf40!important"
             }
           },
           "_name": "ext.menu",
           "_anchor": "ext_menu-i",
           "_params": {
-            "bgColor": "#0065bd",
+            "bgColor": "#000000",
             "fontSize": "1.05",
             "fontName": {},
             "fontColor": "#ffffff",
@@ -152,7 +201,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logo-cvut-262x128.jpg",
+              "src": "@PROJECT_PATH@/assets/images/logo-muvs-zkratka-cb-128x128.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "https://mobirise.com",
@@ -166,54 +215,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://moodle.org/\" target=\"_blank\">PROJECT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://moodle.org/demo/\" target=\"_blank\">DEMO</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"http://ocw.cvut.cz/moodle/\" target=\"_blank\">MOODLE CTU</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white-outline btn-white\" href=\"http://ocw.cvut.cz/moodle/\" target=\"_blank\">MOODLE CTU</a></li>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "contacts1",
-          "_styles": {
-            "P": {
-              "text-align": "left"
-            }
-          },
-          "_anchor": "contacts1-k",
-          "_params": {
-            "paddingTop": "1",
-            "paddingBottom": "1",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#981f40",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#3C3C3C"
-          },
-          "logo": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/mbr-128x85.jpg",
-              "width": 128,
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-contacts1",
-              "linkInNewWindow": false,
-              "name": "home",
-              "family": "MobiriseIcons",
-              "link": "http://www.muvs.cvut.cz",
-              "size": "",
-              "newWindow": true,
-              "active": true
-            }
-          },
-          "text1": "<strong>Address</strong><br>Masaryk Institute of Advanced Studies<br>Kolejní 2637/2a<br>160 00 &nbsp;Praha 6",
-          "text2": "<strong>Contacts</strong><br>Pavel Andres<br>Email: <a href=\"mailto:pavel.andres@cvut.cz\">pavel.andres@cvut.cz</a><br>\nPhone:&nbsp;+420-22435-3170<br>",
-          "text3": "<p><strong>Links</strong><br>\n<a href=\"http://www.muvs.cvut.cz\" target=\"_blank\">MIAS homepage</a></p><p><a class=\"text-primary\" href=\"https://mobirise.com/\"></a><a href=\"http://cvut.cz\" target=\"_blank\">CTU homepage</a></p><p><a href=\"https://intranet.muvs.cvut.cz\" target=\"_blank\">MIAS&nbsp;Intranet</a><br><a class=\"text-primary\" href=\"https://mobirise.com/mobirise-free-mac.zip\"></a></p>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://moodle.org/\" target=\"_blank\">PROJECT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://moodle.org/demo/\" target=\"_blank\">DEMO</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"http://ocw.cvut.cz/moodle/\" target=\"_blank\">MOODLE CVUT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white-outline btn-white\" href=\"http://ocw.cvut.cz/moodle/\" target=\"_blank\">MOODLE CTU</a></li>"
         },
         {
           "_inherit": "social-buttons2",
@@ -228,8 +230,8 @@
           "_name": "social-buttons4",
           "_anchor": "social-buttons4-l",
           "_params": {
-            "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingTop": "2",
+            "paddingBottom": "3",
             "bgImageRadio": true,
             "parallax": true,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-4-2000x1333.jpg",
