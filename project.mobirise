@@ -63,7 +63,7 @@
           },
           "title": "MOODLE",
           "text": "Introduction to LMS Moodle, e-learning at CTU in Prague",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span>YOUTUBE</a> ",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span>YOUTUBE</a> ",
           "_styles": {
             ".mbr-section-title": {
               "font-family": "'Open Sans', sans-serif",
@@ -162,7 +162,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://moodle.org/\" target=\"_blank\">PROJECT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://moodle.org/demo/\" target=\"_blank\">DEMO</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white-outline btn-white\" href=\"http://ocw.cvut.cz/moodle/\" target=\"_blank\">MOODLE CVUT</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://moodle.org/\" target=\"_blank\">PROJECT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://moodle.org/demo/\" target=\"_blank\">DEMO</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white-outline btn-white\" href=\"http://ocw.cvut.cz/moodle/\" target=\"_blank\">MOODLE CTU</a></li>"
         },
         {
           "_tags": [
