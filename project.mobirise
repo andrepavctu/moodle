@@ -118,15 +118,16 @@
               "linkInNewWindow": false,
               "name": "home",
               "family": "MobiriseIcons",
-              "link": "",
+              "link": "http://www.muvs.cvut.cz/",
               "size": 0,
               "color": "#ffffff",
-              "active": true
+              "active": true,
+              "newWindow": true
             }
           },
           "text1": "<strong>Address</strong><br>Masaryk Institute of Advanced Studies<br>Kolejní 2a<br>160 00 &nbsp;Praha 6",
           "text2": "<strong>Contacts</strong><br>\nEmail: <a href=\"mailto:pavel.andres@cvut.cz\">pavel.andres@cvut.cz</a><br>\nPhone:&nbsp;+420-22435-3170<br>\nFax: ---",
-          "text3": "<p><strong>Links</strong><br><a href=\"http://www.muvs.cvut.cz/\" style=\"font-size: 0.875rem; background-color: rgb(0, 101, 189); line-height: 1.5;\">Web MUVS</a><br></p><p>\n<a href=\"https://intranet.muvs.cvut.cz/\">Intranet MUVS</a></p>"
+          "text3": "<p><strong>Links</strong><br><a href=\"http://www.muvs.cvut.cz/\" style=\"font-size: 0.875rem; background-color: rgb(0, 101, 189); line-height: 1.5;\" target=\"_blank\">Web MUVS</a><br></p><p>\n<a href=\"https://intranet.muvs.cvut.cz/\" target=\"_blank\">Intranet MUVS</a></p>"
         },
         {
           "_inherit": "menu",
@@ -204,9 +205,9 @@
               "src": "@PROJECT_PATH@/assets/images/logo-muvs-zkratka-cb-128x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
+              "link": "http://www.muvs.cvut.cz/",
               "title": "",
-              "linkInNewWindow": false
+              "linkInNewWindow": true
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
