@@ -171,8 +171,8 @@
           "_name": "contacts1",
           "_anchor": "contacts1-k",
           "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "paddingTop": "1",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
@@ -204,7 +204,7 @@
           },
           "text1": "<strong>Address</strong><br>Masaryk Institute of Advanced Studies<br>Kolejní 2637/2a<br>160 00 &nbsp;Praha 6",
           "text2": "<strong>Contacts</strong><br>Pavel Andres<br>Email: <a href=\"mailto:pavel.andres@cvut.cz\">pavel.andres@cvut.cz</a><br>\nPhone:&nbsp;+420-22435-3170<br>",
-          "text3": "<p><strong>Links</strong><br>\n<a href=\"http://www.muvs.cvut.cz\" target=\"_blank\">MÚVS homepage</a></p><p><a class=\"text-primary\" href=\"https://mobirise.com/\"></a><a href=\"http://cvut.cz\" target=\"_blank\">CTU homepage</a><br>\n<a href=\"https://intranet.muvs.cvut.cz/\" target=\"_blank\">Intranet MÚVS</a><br><a class=\"text-primary\" href=\"https://mobirise.com/mobirise-free-mac.zip\"></a></p>",
+          "text3": "<p><strong>Links</strong><br>\n<a href=\"http://www.muvs.cvut.cz\" target=\"_blank\">MIAS homepage</a></p><p><a class=\"text-primary\" href=\"https://mobirise.com/\"></a><a href=\"http://cvut.cz\" target=\"_blank\">CTU homepage</a></p><p><a href=\"https://intranet.muvs.cvut.cz\" target=\"_blank\">MIAS&nbsp;Intranet</a><br><a class=\"text-primary\" href=\"https://mobirise.com/mobirise-free-mac.zip\"></a></p>",
           "_styles": {
             "P": {
               "text-align": "left"
@@ -224,11 +224,11 @@
           "_name": "social-buttons4",
           "_anchor": "social-buttons4-l",
           "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "paddingTop": "1",
+            "paddingBottom": "1",
             "bgImageRadio": true,
             "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1334.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-4-2000x1333.jpg",
             "bgColor": "#f3c649",
             "bgColorRadio": false,
             "overlay": true,
