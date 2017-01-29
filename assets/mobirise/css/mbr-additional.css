@@ -425,6 +425,9 @@ h6,
 #header4-f .mbr-section-lead {
   font-family: 'Open Sans', sans-serif;
 }
+#form1-s .form-control-label {
+  color: #232323;
+}
 #contacts1-r STRONG {
   color: #efefef;
 }
