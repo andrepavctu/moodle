@@ -199,18 +199,18 @@
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-contacts1",
               "linkInNewWindow": false,
-              "name": "home",
+              "name": "map-pin",
               "family": "MobiriseIcons",
               "link": "http://www.muvs.cvut.cz/",
-              "size": 0,
-              "color": "#ffffff",
+              "size": "50",
+              "color": "#9b9b9b",
               "active": true,
               "newWindow": true
             }
           },
           "text1": "<strong>Adresa</strong><br>Masarykův ústav vyšších studií, ČVUT v Praze<br>Kolejní 2637/2a<br>160 00 &nbsp;Praha 6",
-          "text2": "<strong>Kontakty</strong><br>\nEmail: <a href=\"mailto:pavel.andres@cvut.cz\">pavel.andres@cvut.cz</a><br>Telefon:&nbsp;+420-22435-3170<br>\nFax: ---",
-          "text3": "<p><strong>Odkazy</strong><br><a href=\"http://www.muvs.cvut.cz/\" style=\"font-size: 0.875rem; background-color: rgb(0, 101, 189); line-height: 1.5;\" target=\"_blank\">Web MÚVS</a><br></p><p>\n<a href=\"https://intranet.muvs.cvut.cz/\" target=\"_blank\">Intranet MÚVS</a></p>"
+          "text2": "<strong>Kontakty</strong><br>\nEmail: <a href=\"mailto:pavel.andres@cvut.cz\" class=\"text-danger\">pavel.andres@cvut.cz</a><br>Telefon:&nbsp;+420-22435-3170<br>\nFax: ---",
+          "text3": "<p><strong>Odkazy</strong><br><a href=\"http://www.muvs.cvut.cz/\" style=\"font-size: 0.875rem; background-color: rgb(0, 101, 189); line-height: 1.5;\" target=\"_blank\" class=\"text-danger\">Web MÚVS</a><br></p><p>\n<a href=\"https://intranet.muvs.cvut.cz/\" target=\"_blank\" class=\"text-danger\">Intranet MÚVS</a></p>"
         },
         {
           "_inherit": "menu",
@@ -266,7 +266,7 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#faaf40!important"
+              "color": "#9b9b9b!important"
             }
           },
           "_name": "ext.menu",
