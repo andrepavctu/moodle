@@ -6,7 +6,7 @@
       "name": "mobirise3",
       "title": "Mobirise 3",
       "styling": {
-        "primaryColor": "#faaf40",
+        "primaryColor": "#9b9b9b",
         "secondaryColor": "#bfcecb",
         "successColor": "#c1c1c1",
         "infoColor": "#00a885",
@@ -103,7 +103,8 @@
             },
             ".mbr-section-title": {
               "font-family": "'Raleway', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
+              "font-size": "46px"
             },
             ".btn": {
               "font-family": "'Raleway', sans-serif",
@@ -164,7 +165,7 @@
           "_name": "contacts1",
           "_styles": {
             "STRONG": {
-              "color": "#efefef",
+              "color": "#9b9b9b",
               "font-family": "'Raleway', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
             },
@@ -188,7 +189,7 @@
           },
           "logo": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/logo_muvs_zkratka-128x128.png",
+              "src": "@PROJECT_PATH@/assets/images/logo-muvs-zkratka-128x128.png",
               "width": 128,
               "link": "",
               "alt": "",
@@ -226,36 +227,36 @@
               "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
             },
             ".navbar-toggler": {
-              "color": "#ffffff"
+              "color": "#0065bd"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
+              "background-color": "#0065bd"
             },
             ".link, .dropdown-item": {
-              "color": "#ffffff",
+              "color": "#0065bd",
               "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
               "font-family": "'Raleway', sans-serif"
             },
             ".link": {
-              "font-size": "1.05rem"
+              "font-size": "1rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "1.137rem"
+              "font-size": "1.083rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#000000"
+              "background": "#e6e6e6"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#000000!important"
+              "background": "#f7f7f7!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#000000"
+              "background": "#ffffff"
             },
             ".bg-color.transparent .link": {
-              "color": "#ffffff",
+              "color": "#0065bd",
               "transition": "none"
             },
             ".bg-color.transparent.opened .link": {
@@ -271,14 +272,14 @@
           "_name": "ext.menu",
           "_anchor": "ext_menu-i",
           "_params": {
-            "bgColor": "#000000",
-            "fontSize": "1.05",
+            "bgColor": "#ffffff",
+            "fontSize": "1",
             "fontName": {
               "name": "Raleway",
               "url": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
               "css": "'Raleway', sans-serif"
             },
-            "fontColor": "#ffffff",
+            "fontColor": "#0065bd",
             "fontHoverColor": "@primaryColor",
             "transparent": false,
             "sticky": true,
@@ -290,7 +291,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logo-muvs-zkratka-cb-128x128.png",
+              "src": "@PROJECT_PATH@/assets/images/logo-muvs-zkratka-128x128.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "http://www.muvs.cvut.cz/",
@@ -314,7 +315,8 @@
             },
             ".mbr-section-title": {
               "font-family": "'Raleway', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
+              "font-size": "46px"
             }
           },
           "_tags": [
@@ -323,7 +325,7 @@
           "_name": "social-buttons4",
           "_anchor": "social-buttons4-l",
           "_params": {
-            "paddingTop": "2",
+            "paddingTop": "1",
             "paddingBottom": "3",
             "bgImageRadio": true,
             "parallax": true,
