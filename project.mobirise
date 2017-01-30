@@ -21,7 +21,7 @@
       }
     },
     "versionFirst": "3.11.1",
-    "uniqCompNum": 29,
+    "uniqCompNum": 54,
     "versionPublish": "3.11.1",
     "favicon": "",
     "noImageResize": "",
@@ -86,6 +86,14 @@
             "Theme"
           ],
           "_name": "form1",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#232323"
+            },
+            "SMALL": {
+              "color": "#ffffff"
+            }
+          },
           "_anchor": "form1-s",
           "_params": {
             "labelsColor": "#232323",
@@ -94,7 +102,7 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
+            "bgColor": "#9b9b9b",
             "bgColorRadio": true,
             "overlay": false,
             "overlayOpacity": 0.5,
@@ -105,7 +113,7 @@
           "title": "CONTACT FORM",
           "subtitle": "Do you have any comments or ideas? Give me know.",
           "form": {
-            "action": "andres.pav@gmail.com",
+            "action": "pavel.andres@cvut.cz",
             "alerts": {
               "success": "Thanks for filling out form!"
             },
@@ -122,7 +130,7 @@
               },
               "phone": {
                 "title": "Phone",
-                "visible": true,
+                "visible": false,
                 "customTitle": "Phone"
               },
               "message": {
@@ -131,12 +139,7 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>",
-          "_styles": {
-            ".form-control-label": {
-              "color": "#232323"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-black\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT US</a>"
         },
         {
           "_tags": [

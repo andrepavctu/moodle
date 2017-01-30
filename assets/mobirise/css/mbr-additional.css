@@ -428,6 +428,9 @@ h6,
 #form1-s .form-control-label {
   color: #232323;
 }
+#form1-s SMALL {
+  color: #ffffff;
+}
 #contacts1-r STRONG {
   color: #efefef;
 }
