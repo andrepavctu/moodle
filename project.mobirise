@@ -12,9 +12,9 @@
         "infoColor": "#00a885",
         "warningColor": "#f3c649",
         "dangerColor": "#f28281",
-        "titleFont": "Lato",
-        "subtitleFont": "Lato",
-        "textFont": "Open Sans",
+        "titleFont": "Raleway",
+        "subtitleFont": "Raleway",
+        "textFont": "Raleway",
         "isRoundedButtons": true,
         "isAnimatedOnScroll": true,
         "isScrollToTopButton": true
@@ -49,12 +49,18 @@
           "_name": "header4",
           "_styles": {
             ".mbr-section-title": {
-              "font-family": "'Open Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
+              "text-align": "left"
             },
             ".mbr-section-lead": {
-              "font-family": "'Open Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
+              "text-align": "left"
+            },
+            ".btn": {
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
             }
           },
           "_anchor": "header4-f",
@@ -71,15 +77,15 @@
             "bgVideoRadio": true,
             "overlay": true,
             "overlayOpacity": 0.5,
-            "overlayColor": "#000",
+            "overlayColor": "#2969b0",
             "contentAlign": "right",
             "showTitle": true,
             "showText": true,
             "showButtons": true
           },
           "title": "MOODLE",
-          "text": "Introduction to LMS Moodle, e-learning at CTU in Prague",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://www.youtube.com/playlist?list=PLYB1R2T1XSU2LmxgT77N632tiajfGOCmX\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span>YOUTUBE</a> "
+          "text": "Úvod do prostředí LMS Moodle, ČVUT v Praze<br><br>",
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://www.youtube.com/playlist?list=PLYB1R2T1XSU2LmxgT77N632tiajfGOCmX\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span>YOUTUBE</a>      "
         },
         {
           "_tags": [
@@ -91,14 +97,24 @@
               "color": "#232323"
             },
             "SMALL": {
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
+            },
+            ".mbr-section-title": {
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
+            },
+            ".btn": {
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
             }
           },
           "_anchor": "form1-s",
           "_params": {
             "labelsColor": "#232323",
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "paddingTop": "1",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
@@ -110,18 +126,18 @@
             "showTitle": true,
             "showSubTitle": true
           },
-          "title": "CONTACT FORM",
-          "subtitle": "Do you have any comments or ideas? Give me know.",
+          "title": "KONTAKTNÍ FORMULÁŘ",
+          "subtitle": "Máte-li nápady a komentáře, dejte nám vědět ...",
           "form": {
             "action": "pavel.andres@cvut.cz",
             "alerts": {
-              "success": "Thanks for filling out form!"
+              "success": "Děkujeme, Vaše zpráva byla odeslána!"
             },
             "fields": {
               "name": {
                 "title": "Name",
                 "visible": true,
-                "customTitle": "Name*"
+                "customTitle": "Příjmení, jméno*"
               },
               "email": {
                 "title": "Email",
@@ -135,11 +151,11 @@
               },
               "message": {
                 "title": "Message",
-                "customTitle": "Message"
+                "customTitle": "Zpráva"
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-black\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT US</a>"
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-black\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">ODESLAT</a>"
         },
         {
           "_tags": [
@@ -148,7 +164,13 @@
           "_name": "contacts1",
           "_styles": {
             "STRONG": {
-              "color": "#efefef"
+              "color": "#efefef",
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
+            },
+            "P": {
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
             }
           },
           "_anchor": "contacts1-r",
@@ -185,9 +207,9 @@
               "newWindow": true
             }
           },
-          "text1": "<strong>Address</strong><br>Masaryk Institute of Advanced Studies<br>Kolejní 2637/2a<br>160 00 &nbsp;Praha 6",
-          "text2": "<strong>Contacts</strong><br>\nEmail: <a href=\"mailto:pavel.andres@cvut.cz\">pavel.andres@cvut.cz</a><br>\nPhone:&nbsp;+420-22435-3170<br>\nFax: ---",
-          "text3": "<p><strong>Links</strong><br><a href=\"http://www.muvs.cvut.cz/\" style=\"font-size: 0.875rem; background-color: rgb(0, 101, 189); line-height: 1.5;\" target=\"_blank\">Web MUVS</a><br></p><p>\n<a href=\"https://intranet.muvs.cvut.cz/\" target=\"_blank\">Intranet MUVS</a></p>"
+          "text1": "<strong>Adresa</strong><br>Masarykův ústav vyšších studií, ČVUT v Praze<br>Kolejní 2637/2a<br>160 00 &nbsp;Praha 6",
+          "text2": "<strong>Kontakty</strong><br>\nEmail: <a href=\"mailto:pavel.andres@cvut.cz\">pavel.andres@cvut.cz</a><br>Telefon:&nbsp;+420-22435-3170<br>\nFax: ---",
+          "text3": "<p><strong>Odkazy</strong><br><a href=\"http://www.muvs.cvut.cz/\" style=\"font-size: 0.875rem; background-color: rgb(0, 101, 189); line-height: 1.5;\" target=\"_blank\">Web MÚVS</a><br></p><p>\n<a href=\"https://intranet.muvs.cvut.cz/\" target=\"_blank\">Intranet MÚVS</a></p>"
         },
         {
           "_inherit": "menu",
@@ -210,7 +232,9 @@
               "background-color": "#ffffff"
             },
             ".link, .dropdown-item": {
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
+              "font-family": "'Raleway', sans-serif"
             },
             ".link": {
               "font-size": "1.05rem"
@@ -249,7 +273,11 @@
           "_params": {
             "bgColor": "#000000",
             "fontSize": "1.05",
-            "fontName": {},
+            "fontName": {
+              "name": "Raleway",
+              "url": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
+              "css": "'Raleway', sans-serif"
+            },
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor",
             "transparent": false,
@@ -276,13 +304,17 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://moodle.org/\" target=\"_blank\">PROJECT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://moodle.org/demo/\" target=\"_blank\">DEMO</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"http://ocw.cvut.cz/moodle/\" target=\"_blank\">MOODLE CVUT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white-outline btn-white\" href=\"http://ocw.cvut.cz/moodle/\" target=\"_blank\">MOODLE CTU</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://moodle.org/\" target=\"_blank\">PROJEKT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://moodle.org/demo/\" target=\"_blank\">DEMO</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"http://ocw.cvut.cz/moodle/\" target=\"_blank\">MOODLE ČVUT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white-outline btn-white\" href=\"http://ocw.cvut.cz/moodle/\" target=\"_blank\">MOODLE CTU</a></li>"
         },
         {
           "_inherit": "social-buttons2",
           "_styles": {
             ".mbr-section-title, .btn-social": {
               "color": "#fff"
+            },
+            ".mbr-section-title": {
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
             }
           },
           "_tags": [
@@ -302,7 +334,7 @@
             "overlayOpacity": 0.5,
             "overlayColor": "#222"
           },
-          "text": "FOLLOW US",
+          "text": "KONTAKTUJTE NÁS",
           "icons": " <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/Masarykac/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>      <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/company/ctu-masaryk-institute-of-advanced-studies\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-linkedin\"></i></a>   "
         }
       ]
