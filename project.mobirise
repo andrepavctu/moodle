@@ -326,7 +326,7 @@
           "_anchor": "social-buttons4-l",
           "_params": {
             "paddingTop": "1",
-            "paddingBottom": "3",
+            "paddingBottom": "2",
             "bgImageRadio": true,
             "parallax": true,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-4-2000x1333.jpg",
@@ -336,7 +336,7 @@
             "overlayOpacity": 0.5,
             "overlayColor": "#222"
           },
-          "text": "KONTAKTUJTE NÁS",
+          "text": "",
           "icons": " <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/Masarykac/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>      <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/company/ctu-masaryk-institute-of-advanced-studies\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-linkedin\"></i></a>   "
         }
       ]
