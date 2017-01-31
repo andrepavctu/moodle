@@ -462,9 +462,11 @@ h6,
 #contacts1-r STRONG {
   color: #ffffff;
   font-family: 'Raleway', sans-serif;
+  font-size: 16px;
 }
 #contacts1-r P {
   font-family: 'Raleway', sans-serif;
+  font-size: 14px;
 }
 #ext_menu-i .hide-buttons .nav-btn {
   display: none !important;

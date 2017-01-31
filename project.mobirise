@@ -173,11 +173,13 @@
             "STRONG": {
               "color": "#ffffff",
               "font-family": "'Raleway', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
+              "font-size": "16px"
             },
             "P": {
               "font-family": "'Raleway', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
+              "font-size": "14px"
             }
           },
           "_anchor": "contacts1-r",
@@ -336,8 +338,8 @@
           "_name": "social-buttons4",
           "_anchor": "social-buttons4-l",
           "_params": {
-            "paddingTop": "1",
-            "paddingBottom": "3",
+            "paddingTop": "0",
+            "paddingBottom": "2",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-4-2000x1333.jpg",
