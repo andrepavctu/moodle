@@ -84,7 +84,7 @@
             "showButtons": true
           },
           "title": "MOODLE",
-          "text": "Úvod do prostředí LMS Moodle, ČVUT v Praze<br><br>",
+          "text": "Úvod do prostředí LMS Moodle, ČVUT v Praze<br><br>9.00–11.30 h, 423 PC Lab<br><b><a href=\"http://doodle.com/poll/7g8eucscyr4yy8eg\" target=\"_blank\" class=\"text-warning\">14. února 2017</a></b><br><b><a href=\"http://doodle.com/poll/uq3nyhargncgi5ku\" target=\"_blank\" class=\"text-danger\">17. února 2017</a></b><br>",
           "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://www.youtube.com/playlist?list=PLYB1R2T1XSU2LmxgT77N632tiajfGOCmX\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span>YOUTUBE</a>      "
         },
         {
@@ -267,6 +267,11 @@
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
               "color": "#9b9b9b!important"
+            },
+            ".btn": {
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
+              "font-size": "16px"
             }
           },
           "_name": "ext.menu",
@@ -286,7 +291,7 @@
             "logo": true,
             "showBrand": true,
             "collapsed": true,
-            "hideButtons": true
+            "hideButtons": false
           },
           "logo": {
             "image": {
@@ -305,7 +310,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://moodle.org/\" target=\"_blank\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>MOODLE.ORG</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"http://ocw.cvut.cz/moodle/\" target=\"_blank\"><span class=\"mbri-key mbr-iconfont mbr-iconfont-btn\"></span>MOODLE.CVUT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://moodle.org/demo/\" target=\"_blank\"><span class=\"mbri-menu mbr-iconfont mbr-iconfont-btn\"></span>DEMO</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white-outline btn-white\" href=\"http://ocw.cvut.cz/moodle/\" target=\"_blank\">MOODLE CTU</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://moodle.org/\" target=\"_blank\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>MOODLE.ORG</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"http://ocw.cvut.cz/moodle/\" target=\"_blank\"><span class=\"mbri-key mbr-iconfont mbr-iconfont-btn\"></span>MOODLE.CVUT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://moodle.org/demo/\" target=\"_blank\"><span class=\"mbri-menu mbr-iconfont mbr-iconfont-btn\"></span>DEMO</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"https://knihy.nic.cz/files/nic/edice/Moderne_s_Moodlem_web.pdf\" target=\"_blank\">Ke stažení</a></li>"
         },
         {
           "_inherit": "social-buttons2",
