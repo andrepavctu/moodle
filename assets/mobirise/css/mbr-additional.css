@@ -449,7 +449,7 @@ h6,
   color: #232323;
 }
 #form1-s SMALL {
-  color: #ffffff;
+  color: #000000;
   font-family: 'Raleway', sans-serif;
 }
 #form1-s .mbr-section-title {
@@ -460,7 +460,7 @@ h6,
   font-family: 'Raleway', sans-serif;
 }
 #contacts1-r STRONG {
-  color: #9b9b9b;
+  color: #ffffff;
   font-family: 'Raleway', sans-serif;
 }
 #contacts1-r P {
@@ -540,4 +540,81 @@ h6,
 #social-buttons4-l .mbr-section-title {
   font-family: 'Raleway', sans-serif;
   font-size: 46px;
+}
+
+
+
+#ext_menu-1j .hide-buttons .nav-btn {
+  display: none !important;
+}
+#ext_menu-1j .navbar-caption {
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+}
+#ext_menu-1j .navbar-toggler {
+  color: #0065bd;
+}
+#ext_menu-1j .close-icon::before,
+#ext_menu-1j .close-icon::after {
+  background-color: #0065bd;
+}
+#ext_menu-1j .link,
+#ext_menu-1j .dropdown-item {
+  color: #0065bd;
+  font-family: 'Raleway', sans-serif;
+}
+#ext_menu-1j .link {
+  font-size: 1rem;
+}
+#ext_menu-1j .dropdown-item,
+#ext_menu-1j .nav-dropdown-sm .link {
+  font-size: 1.083rem;
+}
+#ext_menu-1j .link:hover,
+#ext_menu-1j .dropdown-item:hover,
+#ext_menu-1j .link:focus,
+#ext_menu-1j .dropdown-item:focus {
+  color: #9b9b9b;
+}
+#ext_menu-1j .link[aria-expanded="true"],
+#ext_menu-1j .dropdown-menu {
+  background: #e6e6e6;
+}
+#ext_menu-1j .nav-dropdown-sm .link:focus,
+#ext_menu-1j .nav-dropdown-sm .link:hover,
+#ext_menu-1j .nav-dropdown-sm .dropdown-item:focus,
+#ext_menu-1j .nav-dropdown-sm .dropdown-item:hover {
+  background: #f7f7f7!important;
+}
+#ext_menu-1j .navbar,
+#ext_menu-1j .nav-dropdown-sm,
+#ext_menu-1j .nav-dropdown-sm .link[aria-expanded="true"],
+#ext_menu-1j .nav-dropdown-sm .dropdown-menu {
+  background: #ffffff;
+}
+#ext_menu-1j .bg-color.transparent .link {
+  color: #0065bd;
+  transition: none;
+}
+#ext_menu-1j .bg-color.transparent.opened .link {
+  transition: color 0.2s ease-in-out;
+}
+#ext_menu-1j .bg-color.transparent.opened .link:hover,
+#ext_menu-1j .bg-color.transparent.opened .link:focus {
+  color: #9b9b9b;
+}
+#ext_menu-1j .link[aria-expanded="true"],
+#ext_menu-1j .dropdown-item[aria-expanded="true"] {
+  color: #9b9b9b!important;
+}
+#ext_menu-1j .btn {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+}
+#msg-box3-1o .mbr-section-title,
+#msg-box3-1o p {
+  color: #000;
+}
+#features3-1n P {
+  text-align: left;
 }
