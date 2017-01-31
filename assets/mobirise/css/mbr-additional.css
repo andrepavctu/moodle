@@ -15,6 +15,7 @@
 
 
 
+
 body,
 input,
 textarea,
@@ -431,12 +432,17 @@ h6,
 #header4-f .mbr-section-title {
   font-family: 'Raleway', sans-serif;
   text-align: left;
+  color: #ffffff;
 }
 #header4-f .mbr-section-lead {
   font-family: 'Raleway', sans-serif;
   text-align: left;
 }
 #header4-f .btn {
+  font-family: 'Raleway', sans-serif;
+}
+#header4-f .mbr-section-lead B {
+  color: #ffffff;
   font-family: 'Raleway', sans-serif;
 }
 #form1-s .form-control-label {
