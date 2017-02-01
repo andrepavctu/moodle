@@ -620,3 +620,93 @@ h6,
 #features3-1n P {
   text-align: left;
 }
+
+
+
+#msg-box3-1t .mbr-section-title,
+#msg-box3-1t p {
+  color: #000;
+}
+#msg-box3-1t .lead LI {
+  text-align: left;
+}
+#msg-box3-1t .lead DIV {
+  text-align: left;
+}
+#msg-box3-1t .lead P {
+  text-align: center;
+}
+#ext_menu-1q .hide-buttons .nav-btn {
+  display: none !important;
+}
+#ext_menu-1q .navbar-caption {
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+}
+#ext_menu-1q .navbar-toggler {
+  color: #0065bd;
+}
+#ext_menu-1q .close-icon::before,
+#ext_menu-1q .close-icon::after {
+  background-color: #0065bd;
+}
+#ext_menu-1q .link,
+#ext_menu-1q .dropdown-item {
+  color: #0065bd;
+  font-family: 'Raleway', sans-serif;
+}
+#ext_menu-1q .link {
+  font-size: 1rem;
+}
+#ext_menu-1q .dropdown-item,
+#ext_menu-1q .nav-dropdown-sm .link {
+  font-size: 1.083rem;
+}
+#ext_menu-1q .link:hover,
+#ext_menu-1q .dropdown-item:hover,
+#ext_menu-1q .link:focus,
+#ext_menu-1q .dropdown-item:focus {
+  color: #9b9b9b;
+}
+#ext_menu-1q .link[aria-expanded="true"],
+#ext_menu-1q .dropdown-menu {
+  background: #e6e6e6;
+}
+#ext_menu-1q .nav-dropdown-sm .link:focus,
+#ext_menu-1q .nav-dropdown-sm .link:hover,
+#ext_menu-1q .nav-dropdown-sm .dropdown-item:focus,
+#ext_menu-1q .nav-dropdown-sm .dropdown-item:hover {
+  background: #f7f7f7!important;
+}
+#ext_menu-1q .navbar,
+#ext_menu-1q .nav-dropdown-sm,
+#ext_menu-1q .nav-dropdown-sm .link[aria-expanded="true"],
+#ext_menu-1q .nav-dropdown-sm .dropdown-menu {
+  background: #ffffff;
+}
+#ext_menu-1q .bg-color.transparent .link {
+  color: #0065bd;
+  transition: none;
+}
+#ext_menu-1q .bg-color.transparent.opened .link {
+  transition: color 0.2s ease-in-out;
+}
+#ext_menu-1q .bg-color.transparent.opened .link:hover,
+#ext_menu-1q .bg-color.transparent.opened .link:focus {
+  color: #9b9b9b;
+}
+#ext_menu-1q .link[aria-expanded="true"],
+#ext_menu-1q .dropdown-item[aria-expanded="true"] {
+  color: #9b9b9b!important;
+}
+#ext_menu-1q .btn {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+}
+#features7-1r .card-subtitle {
+  color: #bcbcbc;
+}
+#features7-1r .iconbox {
+  background-color: #9b9b9b;
+  border-color: #9b9b9b;
+}
