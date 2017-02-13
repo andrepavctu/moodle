@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "program.html",
     "name": "Moodle školení MÚVS",
     "theme": {
       "name": "mobirise3",
@@ -849,7 +849,7 @@
           },
           "title3": "BLOKY / ČINNOSTI",
           "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "Přidávání studijních materiálů (soubory, popisky, stránky, slovníky, přednášky), tvorba činností (diskuzní fóra, testy a autotesty, dotazníky, úkoly, přihlašování do skupin, hypertextový odkaz, vložení složky a studijních materiálů).",
+          "caption3": "Přidávání studijních materiálů (soubory, popisky, stránky, přednášky), tvorba činností (diskuzní fóra, dotazníky, úkoly, přihlašování do skupin, hypertextový odkaz, vložení složky a studijních materiálů).",
           "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media4": {
             "iconFont": {
@@ -866,7 +866,7 @@
           },
           "title4": "UŽIVATELÉ",
           "subtitle4": "Mobirise gives you the freedom to develop",
-          "caption4": "Vytvoření a správa uživatelů, jejich rolí a oprávnění, význam rolí v kurzu, zálohování a obnova kurzu, metakurzy, přehledy účastníků.",
+          "caption4": "Vytvoření a správa uživatelů, jejich rolí a oprávnění, význam rolí v kurzu, zálohování a obnova kurzu, přehledy účastníků.",
           "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media5": {
             "iconFont": {
