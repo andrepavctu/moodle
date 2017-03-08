@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "program.html",
+    "currentPage": "index.html",
     "name": "Moodle školení MÚVS",
     "theme": {
       "name": "mobirise3",
@@ -21,7 +21,7 @@
       }
     },
     "versionFirst": "3.11.1",
-    "uniqCompNum": 68,
+    "uniqCompNum": 70,
     "versionPublish": "3.11.1",
     "favicon": "",
     "noImageResize": "",
@@ -90,7 +90,7 @@
             "showButtons": true
           },
           "title": "LMS MOODLE<br>",
-          "text": "<b>Základy pro akademické pracovníky</b><br><br><span style=\"font-size: 1.5rem; line-height: 1.5;\">9.00–11.30 h, 423 PC Lab,&nbsp;</span><span style=\"font-size: 1.5rem; line-height: 1.5;\">Masarykův ústav vyšších studií, ČVUT v Praze</span><br><b><a href=\"http://doodle.com/poll/7g8eucscyr4yy8eg\" target=\"_blank\" class=\"text-danger\">14. února 2017</a></b><br><b><a href=\"http://doodle.com/poll/uq3nyhargncgi5ku\" target=\"_blank\" class=\"text-warning\">17. února 2017</a></b><br>",
+          "text": "<b>Základy pro akademické pracovníky</b><br><br><span style=\"font-size: 1.5rem; line-height: 1.5;\">9.00–11.30 h, 423 PC Lab,&nbsp;</span><span style=\"font-size: 1.5rem; line-height: 1.5;\">Masarykův ústav vyšších studií, ČVUT v Praze</span><br><b><a href=\"http://doodle.com/poll/7g8eucscyr4yy8eg\" target=\"_blank\" class=\"text-danger\">14. února 2017</a></b><br><b><a href=\"http://doodle.com/poll/uq3nyhargncgi5ku\" target=\"_blank\" class=\"text-warning\">17. února 2017</a></b><br><b><a href=\"http://doodle.com/poll/8xnwf6ve5zvaaxbe\" target=\"_blank\" class=\"text-white\">21. března 2017 (OPPS, omezená kapacita učebny)</a><a href=\"http://doodle.com/poll/uq3nyhargncgi5ku\" target=\"_blank\" class=\"text-warning\"><br></a></b><br>",
           "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"program.html\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-edit mbr-iconfont mbr-iconfont-btn\"></span>PROGRAM ŠKOLENÍ</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://www.youtube.com/playlist?list=PLYB1R2T1XSU2LmxgT77N632tiajfGOCmX\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span>YOUTUBE</a>      "
         },
         {
